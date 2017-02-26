@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5602276C1E61A69000553B40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5602276B1E61A69000553B40 /* main.m */; };
+		5602276F1E61A69000553B40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5602276E1E61A69000553B40 /* AppDelegate.m */; };
+		560227721E61A69000553B40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 560227711E61A69000553B40 /* ViewController.m */; };
+		560227751E61A69000553B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560227731E61A69000553B40 /* Main.storyboard */; };
+		560227771E61A69000553B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560227761E61A69000553B40 /* Assets.xcassets */; };
+		5602277A1E61A69000553B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560227781E61A69000553B40 /* LaunchScreen.storyboard */; };
+		560227841E61A6ED00553B40 /* CYModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 560227831E61A6ED00553B40 /* CYModalView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		560227671E61A69000553B40 /* CYModalView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYModalView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5602276B1E61A69000553B40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5602276D1E61A69000553B40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5602276E1E61A69000553B40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		560227701E61A69000553B40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		560227711E61A69000553B40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		560227741E61A69000553B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		560227761E61A69000553B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		560227791E61A69000553B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5602277B1E61A69000553B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		560227821E61A6ED00553B40 /* CYModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYModalView.h; sourceTree = "<group>"; };
+		560227831E61A6ED00553B40 /* CYModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYModalView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		560227641E61A69000553B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5602275E1E61A69000553B40 = {
+			isa = PBXGroup;
+			children = (
+				560227691E61A69000553B40 /* CYModalView */,
+				560227681E61A69000553B40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		560227681E61A69000553B40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				560227671E61A69000553B40 /* CYModalView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		560227691E61A69000553B40 /* CYModalView */ = {
+			isa = PBXGroup;
+			children = (
+				560227811E61A6C500553B40 /* CYModalView */,
+				5602276D1E61A69000553B40 /* AppDelegate.h */,
+				5602276E1E61A69000553B40 /* AppDelegate.m */,
+				560227701E61A69000553B40 /* ViewController.h */,
+				560227711E61A69000553B40 /* ViewController.m */,
+				560227731E61A69000553B40 /* Main.storyboard */,
+				560227761E61A69000553B40 /* Assets.xcassets */,
+				560227781E61A69000553B40 /* LaunchScreen.storyboard */,
+				5602277B1E61A69000553B40 /* Info.plist */,
+				5602276A1E61A69000553B40 /* Supporting Files */,
+			);
+			path = CYModalView;
+			sourceTree = "<group>";
+		};
+		5602276A1E61A69000553B40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5602276B1E61A69000553B40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		560227811E61A6C500553B40 /* CYModalView */ = {
+			isa = PBXGroup;
+			children = (
+				560227821E61A6ED00553B40 /* CYModalView.h */,
+				560227831E61A6ED00553B40 /* CYModalView.m */,
+			);
+			path = CYModalView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		560227661E61A69000553B40 /* CYModalView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5602277E1E61A69000553B40 /* Build configuration list for PBXNativeTarget "CYModalView" */;
+			buildPhases = (
+				560227631E61A69000553B40 /* Sources */,
+				560227641E61A69000553B40 /* Frameworks */,
+				560227651E61A69000553B40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYModalView;
+			productName = CYModalView;
+			productReference = 560227671E61A69000553B40 /* CYModalView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5602275F1E61A69000553B40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "李长友";
+				TargetAttributes = {
+					560227661E61A69000553B40 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 358XG59QRF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 560227621E61A69000553B40 /* Build configuration list for PBXProject "CYModalView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5602275E1E61A69000553B40;
+			productRefGroup = 560227681E61A69000553B40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				560227661E61A69000553B40 /* CYModalView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		560227651E61A69000553B40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5602277A1E61A69000553B40 /* LaunchScreen.storyboard in Resources */,
+				560227771E61A69000553B40 /* Assets.xcassets in Resources */,
+				560227751E61A69000553B40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		560227631E61A69000553B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560227841E61A6ED00553B40 /* CYModalView.m in Sources */,
+				560227721E61A69000553B40 /* ViewController.m in Sources */,
+				5602276F1E61A69000553B40 /* AppDelegate.m in Sources */,
+				5602276C1E61A69000553B40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		560227731E61A69000553B40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				560227741E61A69000553B40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		560227781E61A69000553B40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				560227791E61A69000553B40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5602277C1E61A69000553B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5602277D1E61A69000553B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5602277F1E61A69000553B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 358XG59QRF;
+				INFOPLIST_FILE = CYModalView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lcy.CYModalView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		560227801E61A69000553B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 358XG59QRF;
+				INFOPLIST_FILE = CYModalView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lcy.CYModalView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		560227621E61A69000553B40 /* Build configuration list for PBXProject "CYModalView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5602277C1E61A69000553B40 /* Debug */,
+				5602277D1E61A69000553B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5602277E1E61A69000553B40 /* Build configuration list for PBXNativeTarget "CYModalView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5602277F1E61A69000553B40 /* Debug */,
+				560227801E61A69000553B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5602275F1E61A69000553B40 /* Project object */;
+}
