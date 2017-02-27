@@ -25,8 +25,6 @@
 ```objc    
 self.modalView = [[CYModalView alloc] initWithHeight:300 andViewController:self.navigationController];
 ```
-**注意**：如果当前控制器带有导航栏，需要传入self.navigationController，否则导航栏还会停留在原处。
-
 ######4.弹出视图
 
 ```objc
