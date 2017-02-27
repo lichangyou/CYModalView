@@ -77,6 +77,10 @@
     }
     _dismissControl.userInteractionEnabled = YES;
     
+    if (self.viewController.navigationController) {
+        self.viewController.navigationController.navigationBarHidden = YES;
+    }
+
     [UIView animateWithDuration:0.5f animations:^{
         _maskImageView.alpha = 0.5;
         _contentView.frame = CGRectMake(0, [[UIScreen mainScreen] bounds].size.height - _contentView.bounds.size.height, _contentView.frame.size.width, _contentView.frame.size.height);
@@ -108,6 +112,9 @@
         _contentView.frame = CGRectMake(0, self.frame.size.height, _contentView.frame.size.width, _contentView.frame.size.height);
     } completion:^(BOOL finished) {
         if (self.viewController) {
+            if (self.viewController.navigationController) {
+                self.viewController.navigationController.navigationBarHidden = NO;
+            }
             [self.viewController.view sendSubviewToBack:self];
         }
     }];

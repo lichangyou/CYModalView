@@ -26,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.modalView = [[CYModalView alloc] initWithHeight:300 andViewController:self.navigationController];
+    self.modalView = [[CYModalView alloc] initWithHeight:300 andViewController:self];
     self.modalView.contentView.backgroundColor = [UIColor blueColor];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
