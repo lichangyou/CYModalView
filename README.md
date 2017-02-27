@@ -23,7 +23,7 @@
 ######3.初始化CYModalView
 
 ```objc    
-self.modalView = [[CYModalView alloc] initWithHeight:300 andViewController:self.navigationController];
+self.modalView = [[CYModalView alloc] initWithHeight:300 andViewController:self];
 ```
 ######4.弹出视图
 
